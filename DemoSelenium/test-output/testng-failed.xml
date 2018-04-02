@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Demo]">
+  <parameter name="browser" value="chrome"/>
+  <parameter name="url" value="https://localhost:8443/login"/>
+  <test name="SeleniumDemo(failed)">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="url" value="https://localhost:8443/login"/>
+    <classes>
+      <class name="org.seleniumtm.test.TemplateTest">
+        <methods>
+          <include name="listTemplate"/>
+          <include name="deleteTemplate"/>
+          <include name="afterMethod"/>
+          <include name="editTemplate"/>
+          <include name="createTemplate"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- org.seleniumtm.test.TemplateTest -->
+    </classes>
+  </test> <!-- SeleniumDemo(failed) -->
+</suite> <!-- Failed suite [Demo] -->

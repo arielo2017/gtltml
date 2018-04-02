@@ -1,0 +1,30 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Demo" thread-count="1">
+	<test name="SeleniumDemo">
+		<parameter name="browser" value="chrome" />
+		<parameter name="url" value="https://localhost:8443/login" />
+		<classes>	
+			 <!--<class name="org.seleniumtm.test.LoginTest" />-->
+			<!--<class name="org.seleniumtm.test.UserTest"  />-->
+			<!--<class name="org.seleniumtm.test.UserGroupTest"  />-->
+			<!--<class name="org.seleniumtm.test.DeviceTest"  />-->
+			<!--<class name="org.seleniumtm.test.DeviceGroupTest" />-->
+			<!--<class name="org.seleniumtm.test.SettingOptionTest"  />-->
+			<class name="org.seleniumtm.test.TemplateTest" />
+			<!--<class name="org.seleniumtm.test.AppsTest"  />-->
+			<!--<class name="org.seleniumtm.test.SettingOptionTest"/>-->
+		<!--<class name="org.seleniumtm.test.ImportFileTest"  />-->
+			<!--<class name="org.seleniumtm.test.InstallAppTest"  />-->
+			<!--<class name="org.seleniumtm.test.SystemUpdateTest"  />-->
+			<!--<class name="org.seleniumtm.test.RunSystemUpdateTest"  />-->
+			<!--<class name="org.seleniumtm.test.SecurityTest"  />-->
+			<!--<class name="org.seleniumtm.test.OperationTest"/>-->
+			<!--<class name="org.seleniumtm.test.ExportFileTest"/>-->
+			<!--<class name="org.seleniumtm.test.LocationTest"/>-->
+			<!--<class name="org.seleniumtm.test.SetPasswordTest"/>-->
+			 <!--<class name="org.seleniumtm.test.TestC" />-->
+			<!-- <class name="org.seleniumtm.test.SystemUpdateChainTest"/>-->
+		</classes>
+	</test>
+</suite> 
